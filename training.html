@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This Is Description For My First Page">
+    <meta name="copyright" content="Roaa Perfeums Brand">
+    <meta name="author" content="mostafa yassen">
+    <title>training html page</title>
+    <style>
+        input,label{
+                    padding: 10px;
+                    margin: 10px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    background-attachment:scroll;
+                    ba
+                   }
+        fieldset{
+                padding: 10px 20px;
+                margin: 10px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                border: 2px solid indigo;
+                }
+        div {
+            width: 500px;
+        }
+    </style>
+<body>
+<form action="mosta.php" method="GET">
+    <label for="user">username</label>
+    <input id="user" type="text" placeholder="type your username here" name="user" required autofocus minlength="5" maxlength="20">
+    <hr>
+    <label for="pass">password</label>
+    <input id="pass" type="Password" placeholder="type your pass here" name="pass">
+    <hr>
+    <label for="mob">Mobile No</label>
+    <input id="mob" type="text" name="mobile" value="+20100(234)123" placeholder="type your Mob here">
+    <hr>
+    <label for="mail">Email</label>
+    <input id="mail" type="Email" value="mostafayassen0@gmail.com" name="E-mail" required placeholder="type your mail here" readonly> 
+    <hr>
+    <label for="sub">subject</label>
+    <input id="sub" type="text" name="subject" placeholder="type your subject here">
+    <Hr>
+    <label for="badgeNO">badge number</label>
+    <input id="badgeNO" type="number"  value="150" name="badge">
+    <hr>
+    <label for="token">token</label>
+    <input type="text" value="b92f1fc2fce391ad7af633723afd3055" name="token" id="token" hidden>
+    <br>
+<fieldset>
+    <legend>Best Programming lang</legend> 
+<div>
+    <input id="paython33" type="checkbox">
+    <label for="paython33">paython</label>
+</div>
+<div>
+    <input id="java22" type="checkbox">
+    <label for="java22">c++</label>
+</div>
+<div>
+    <input id="html11" type="checkbox">
+    <label for="html11">html</label>
+</div>
+<div>
+    <input id="css33" type="checkbox">
+    <label for="css33">css</label>
+</div>
+</fieldset> 
+<fieldset>
+    <legend>What your opearating system ?</legend> 
+    <div>
+        <input id="win" type="radio" name="system" value="windows" checked>
+        <label for="win">windows</label>
+    </div>
+    <div>
+        <input id="lin" type="radio" name="system" value="Linux">
+        <label for="lin">Linux</label>
+    </div>
+    <div>
+        <input id="Mac" type="radio" name="system" value="Mac">
+        <label for="Mac">Mac</label>
+    </div>
+    <label for="proglist">Choose your best lang</label>
+    <select name="Programminglist" id="proglist"> 
+        <optgroup label="high">
+            <option value="1">css</option>
+            <option value="2">html</option>
+            <option value="3">c++</option>
+        </optgroup>
+        <optgroup label="low">
+            <option value="4" selected>paython</option>
+            <option value="5">php</option>
+            <option value="6">c+</option>
+        </optgroup>
+    </select>
+        </fieldset>
+        <hr>
+        <textarea name="Breif" id="Breif" cols="75" rows="10" placeholder="set you comment here......."></textarea><Br />
+        <label for="Breif" class="@sasa"></label>
+        <hr>
+        <input type="submit" value="Send Data">
+    <input type="reset" value="Empty Form">
+</form>
+<div>
+
+</div>
+</body>
+</html>
